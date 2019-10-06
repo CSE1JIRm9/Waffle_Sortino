@@ -1,0 +1,199 @@
+body {
+  background-color: #1e2023;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none }
+
+.navbar .logo img {
+  width: 120px;
+  margin-top: 5px;
+}
+
+.navbar .logo {
+  flex: 1;
+  padding: 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.links a:hover{
+  cursor:pointer;
+  color:white;
+
+}
+
+.links a.design{
+ color:white;
+}
+
+.navbutton{
+  display:none;
+}
+
+
+.show {
+  visibility : visible;
+}
+
+.hide {
+  visibility : hidden;
+}
+
+.scroll-show {
+  overflow-y: auto;
+}
+
+.scroll-hide {
+  overflow-y: hidden;
+}
+
+/*----js 파트는 잘 이해가 안됩니다 ㅠㅠ-------------------*/
+
+.links{
+ color:gray;
+}
+
+.navbar .word{
+  padding: 24px 15px;
+}
+
+.navbar{
+
+  background: #1e2023;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 3000;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 84px;
+    padding: 0 16px;
+    background: #1e2023;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+}@media (max-width: 960px) {
+  .navbar {
+    padding: 0;
+  }
+}
+
+/*-----navbar 끝-------------*/
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  padding-top:84px;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.item .i9 {
+  width: 200px;
+}
+
+.item  .i7 {
+  width: 200px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1px #2a2d31;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  transition: background-color 0.3s;
+}
+
+.item.big {
+  width: 50%
+}
+
+.item.small {
+  width: 25%;
+}
+
+.item img{
+  height: 100px;
+  margin: auto 0;
+  transition: height 0.3s ;
+}
+
+.item img.i7 {
+  transition: width 0.3s;
+}
+
+.item img.i9 {
+  transition: width 0.3s;
+}
+
+.item.i1:hover {
+  background-color: #52d8bc;
+}
+
+.item.i2:hover {
+  background-color: #FF7F48;
+}
+
+.item.i3:hover {
+  background-color: #f2374d;
+}
+
+.item.i4:hover {
+  background-color: #d65056;
+}
+
+.item.i5:hover {
+  background-color: #303437;
+}
+
+.item.i6:hover {
+  background-color: #68bde7;
+}
+
+.item.i7:hover {
+  background-color: #164B78;
+}
+
+.item.i8:hover {
+  background-color: #77bc1f;
+}
+
+.item.i9:hover {
+  background-color: #00A86E;
+}
+
+.item.i10:hover {
+  background-color: #f9ca02;
+}
+
+.item.i11:hover {
+  background-color: #4C3770;
+}
+
+.item:hover img {
+  height: 120px;
+}
+
+.item:hover .i7 {
+  width: 250px;
+}
+
+.item:hover .i9 {
+  width: 250px;
+}
